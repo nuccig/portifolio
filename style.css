@@ -10,7 +10,7 @@
 body {
     background-color: #22212C;
 
-    display: flex;
+    /* display: flex; */
     
     margin: 40px;
 }
@@ -18,8 +18,6 @@ body {
 .container {
     background-color: #302F3D;
     border-radius: 20px;
-    
-    display: flex;
 }
 
 .title {
@@ -74,9 +72,10 @@ body #profile img {
 }
 
 #profile {
-    width: 348px;
+    width: 164px;
     height: 292px;
-    
+
+    display: flex;    
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -89,6 +88,7 @@ body #profile img {
     margin-left: 60px;
     padding: 30px;
 
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -114,4 +114,26 @@ body #profile img {
 
 #github {
     width: 25%;
+}
+
+#top-side {
+    display: flex;
+}
+
+#informations, #tecnologies, #experiences, #education {
+    width: 164px;
+    height: 250px;
+
+    margin-top: 30px;
+}
+
+#tecnologies {
+    height: 200px;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+
+    width: 164px;
 }
