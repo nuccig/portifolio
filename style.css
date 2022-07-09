@@ -181,6 +181,10 @@ body #profile img {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+
+    width: 952px;
+
+    margin: 0 30px;
 }
 
 #informations, #tecnologies, #experiences, #education {
