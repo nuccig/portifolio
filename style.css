@@ -238,6 +238,21 @@ body #profile img {
     border-radius: 30px;
 }
 
+#experiences {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 0 20px;
+}
+
+.experience {
+    margin-top: 16px;
+}
+
+#experiences .experience h1{
+    font-size: 18px;
+}
+
 #sidebar {
     display: flex;
     flex-direction: column;
