@@ -5,6 +5,8 @@
 
     font-family: 'Lato', sans-serif;
     text-decoration: none;
+
+    list-style: none;
 }
 
 body {
@@ -96,7 +98,6 @@ body #profile img {
 }
 
 #tags {
-    list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -187,6 +188,33 @@ body #profile img {
     height: 250px;
 
     margin-top: 30px;
+}
+
+#informations ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    height: 250px;
+    padding: 30px 20px;
+}
+
+#informations img {
+    width: 15px;
+    height: 15px;
+}
+
+#informations li {
+    display: flex;
+    align-items: center;
+}
+
+#informations li p, #informations li a {
+    margin-left: 4px;
+    font-size: 10px;
+
+    color: #837E9F
 }
 
 #tecnologies {
