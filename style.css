@@ -216,7 +216,14 @@ body #profile img {
     align-items: center;
 }
 
-#informations li p, #informations li a {
+#informations li p{
+    margin-left: 20px;
+    font-size: 14px;
+
+    color: #f8f8f2
+}
+
+#informations li a{
     margin-left: 20px;
     font-size: 14px;
 
