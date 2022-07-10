@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #22212C;
+    background-color: #282a36;
 
     /* display: flex; */
     
@@ -18,25 +18,25 @@ body {
 }
 
 .container {
-    background-color: #302F3D;
+    background-color: #44475a;
     border-radius: 20px;
 }
 
 .title {
     font-weight: 700;
     font-size: 23px;
-    color: #837E9F;
+    color: #f8f8f2;
 }
 
 .subtitle {
     font-weight: 400;
     font-size: 13px;
-    color: #837E9F;
+    color: #f8f8f2;
 }
 
 .repo {
     height: 175px;
-    width: 461px;
+    width: 48%;
     display: block;
     padding: 30px   ;
 }
@@ -78,13 +78,13 @@ body #profile img {
     height: 128px;
 
     border-radius: 100%;
-    border: 3px solid #ffff00
+    border: 3px solid #f1fa8c
 }
 
 .descricao {
     margin: 26px 0;
     font-weight: 500;
-    color: #837E9F;
+    color: #f8f8f2;
 }
 
 .repo p {
@@ -95,6 +95,8 @@ body #profile img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    width: 100%;
 }
 
 #tags {
@@ -107,7 +109,7 @@ body #profile img {
     margin-right: 60px;
     font-weight: 400;
     font-size: 14px;
-    color: #837E9F;
+    color: #f8f8f2;
 }
 
 #postContent {
@@ -117,7 +119,7 @@ body #profile img {
 }
 
 #profile {
-    width: 164px;
+    width: 275px;
     height: 292px;
 
     display: flex;    
@@ -127,10 +129,10 @@ body #profile img {
 }
 
 #headProjects {
-    width: 952px;
+    width: calc(100% - 30px);
     height: 86px;
 
-    margin-left: 60px;
+    margin-left: 30px;
     padding: 30px;
 
     display: flex;
@@ -139,25 +141,25 @@ body #profile img {
 }
 
 #repos {
-    margin: 31px 0 0 60px;
+    margin: 31px 0 0 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    width: calc(100% - 30px);
 }
 
 #github, #language {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    margin-bottom: 30px;
 }
 
 #headPosts {
     width: 100%;
     height: 86px;
 
-    margin: 30px 0 0 60px;
+    margin-top: 30px;
     padding: 30px;
 
     display: flex;
@@ -182,14 +184,14 @@ body #profile img {
     justify-content: flex-start;
     align-items: center;
 
-    width: 952px;
+    width: calc(100% - 275px);
 
-    margin: 0 30px;
+    margin-left: 30px;
 }
 
 #informations, #tecnologies, #experiences, #education {
-    width: 164px;
-    height: 250px;
+    width: 275px;
+    height: 317px;
 
     margin-top: 30px;
 }
@@ -200,13 +202,13 @@ body #profile img {
     justify-content: space-between;
     align-items: flex-start;
 
-    height: 250px;
-    padding: 30px 20px;
+    height: 100%;
+    padding: 30px;
 }
 
 #informations img {
-    width: 15px;
-    height: 15px;
+    width: 24px;
+    height: 24px;
 }
 
 #informations li {
@@ -215,10 +217,10 @@ body #profile img {
 }
 
 #informations li p, #informations li a {
-    margin-left: 4px;
-    font-size: 10px;
+    margin-left: 20px;
+    font-size: 14px;
 
-    color: #837E9F
+    color: #f8f8f2
 }
 
 #tecnologies {
@@ -228,6 +230,8 @@ body #profile img {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+
+    padding: 15px 0;
 }
 
 #tecnologies .tecnologie {
@@ -238,7 +242,7 @@ body #profile img {
     display: flex;
     justify-content: center;
 
-    background-color: #CB92B1;
+    background-color: #ff79c6;
     border-radius: 30px;
 }
 
@@ -246,7 +250,7 @@ body #profile img {
     display: flex;
     flex-direction: column;
     
-    padding: 0 20px;
+    padding: 10px 20px;
 }
 
 .experience, .eachEducation {
@@ -266,11 +270,15 @@ body #profile img {
     display: flex;
     flex-direction: column;
 
-    width: 164px;
+    width: 275px;
 }
 
 #posts {
-    margin: 30px 0 0 60px;
+    margin-top: 30px;
 
     width: 100%;
+}
+
+#right-top-area {
+    width: calc(100% - 275px);
 }
